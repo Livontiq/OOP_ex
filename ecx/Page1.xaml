@@ -41,7 +41,7 @@
                                 </TransformGroup>
                             </TextBlock.RenderTransform>
                             <Run Text="{Binding carCost}"/>
-                            <Run Text="{Binding carStatus}"/>
+                            <Run x:Name="carT" Text="{Binding carStatus}"/>
                         </TextBlock>
                         <TextBlock Grid.Column="3" Margin="50,0,0,0" FontWeight="Bold">
                             <Button Width="100" Height="20" Content="Button" Background="#FF19D6AF" FontFamily="Rage Italic" FontSize="18" Foreground="#FFDCF304"/>

@@ -26,5 +26,10 @@ namespace ecx
             appFrame.MainFrame = Frame1;
             appFrame.MainFrame.Navigate(new Page1());
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            appFrame.MainFrame.Navigate(new PageAdd());
+        }
     }
 }

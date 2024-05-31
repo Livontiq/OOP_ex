@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ecx"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="800">
     <Grid>
-        <Frame x:Name="Frame1" Content="Frame" Width="800" Height="300" Margin="0,134,0,0" Background="#FFE80AEA"/>
-        <Button Content="Добавить" HorizontalAlignment="Left" Margin="123,71,0,0" VerticalAlignment="Top" />
-        <Button Content="Удалить" HorizontalAlignment="Left" Margin="589,71,0,0" VerticalAlignment="Top"/>
+        <Frame x:Name="Frame1" Content="Frame" Width="800" Background="#FFE80AEA" Margin="0,0,0,62" NavigationUIVisibility="Hidden"/>
+        <Button x:Name="add" Content="Добавить" HorizontalAlignment="Left" Margin="10,342,0,0" VerticalAlignment="Top" Click="Button_Click" />
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="742,342,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
